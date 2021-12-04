@@ -294,16 +294,9 @@ function fireIcon() {
 $(document).ready(function(){
   loadmaps();
   loadmaps2();
-  emsIcon();
-  fireIcon();
-  citizenIcon();
   //check for new updates
   setInterval('loadmaps()',500)
   setInterval('loadmaps2()',500)
-  setInterval('emsIcon()',1000)
-  setInterval('fireIcon()',1000)
-  setInterval('citizenIcon()',1000)
-});
 });
 
 $(document).ready(function(){
