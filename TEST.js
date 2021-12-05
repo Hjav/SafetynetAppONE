@@ -149,8 +149,8 @@ function distanceToSchools(){
  
   let lat1 = x 
   let lon1 = y
-  let  lat2 = 30.612880
-  let lon2 = -96.325681
+  let  lat2 = 30.670425
+  let lon2 = -96.316302
   let lat3 = 30.612344
   let lon3 = -96.330669
   var p = 0.017453292519943295;    // Math.PI / 180
@@ -182,8 +182,8 @@ function distanceToChurch(){
  
   let lat1 = x 
   let lon1 = y
-  let  lat2 = 30.610636
-  let lon2 = -96.322703
+  let  lat2 = 30.664343
+  let lon2 = -96.306866
   var p = 0.017453292519943295;    // Math.PI / 180
   var c = Math.cos;
   var a = 0.5 - c((lat2 - lat1) * p)/2 + 
